@@ -23,7 +23,7 @@ const Projects = () => {
       setScrollPosition(container.scrollLeft);
     }
   };
-
+  console.log(scrollPosition)
   const experiences = [
     { title: 'Url Shortner',repo:'https://github.com/revanth892/CVIP_-webdevelopment_url_shortner_frontend',live:'https://cerulean-smakager-ba2362.netlify.app/', description: 'Developed a user-friendly URL shortener using ReactJS, Axios, and MUI on the frontend, coupled with a robust Node.js and Express.js server. shortid handles the generation of concise and unique codes, seamlessly integrated with MongoDB for secure data storage.Efficient Shortening: shortid for reliable URL shortening.MongoDB Integration: Secure storage and management of short URLs.API Requests: Axios for smooth frontend-backend communication.' },
     { title: 'Netflix Clone',repo:'https://github.com/revanth892/CVIP-webdevelopment-netflixclone',live:'https://netflix-a8955.firebaseapp.com/', description: 'Dynamic UI: Leveraged Reacts state management to dynamically update the UI based on user interactions and fetched data.Scroll Detection: Implemented a scroll event listener to toggle a black background for the navigation bar, mimicking Netflixs design.Responsive Design: Ensured the applications responsiveness across various devices for an optimal user experience.' },
