@@ -9,8 +9,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 // https://drive.google.com/file/d/1MY0UIEqtB2y8iB7sTd7_dUruBYv8okdr/view?usp=sharing
 const AboutMe = () => {
   const downloadResume = () => {
-    // You can provide the direct link to your resume file here.
-    const resumeUrl = 'https://drive.google.com/file/d/1MY0UIEqtB2y8iB7sTd7_dUruBYv8okdr/view?usp=sharing'; // Replace with your resume URL
+    const resumeUrl = 'https://drive.google.com/file/d/1MY0UIEqtB2y8iB7sTd7_dUruBYv8okdr/view?usp=sharing'; 
     window.open(resumeUrl, '_blank');
   };
 
@@ -73,7 +72,7 @@ const AboutMe = () => {
           borderColor: 'white',
           marginLeft:"10px" 
         }}
-        onClick={downloadResume} // Call the function when button is clicked
+        onClick={downloadResume} 
       >
         Get Resume
       </Button>
